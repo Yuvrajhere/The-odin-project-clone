@@ -174,6 +174,7 @@ main div article .card-img-3 {
 main div article h3 {
   margin: 0 auto;
   font-weight: 500;
+  color: var(--color-1);
 }
 
 main div article p {
@@ -184,4 +185,37 @@ main div article p {
 
 section.skills {
   background-color: var(--color-5);
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+section.skills h2 {
+  color: #000000;
+}
+
+div.skills-list {
+  min-height: 64vh;
+  margin: 5% auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+div.skill-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 22%;
+  background-color: #ffffff;
+  padding: 2%;
+}
+
+div.skill-card img {
+  width: 100%;
+}
+
+section.skills button {
+  background-color: var(--color-1);
 }
