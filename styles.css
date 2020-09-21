@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&display=swap');
+
+:root {
+  --font-family-1: 'Open Sans', sans-serif;
+  --font-family-2: 'Press Start 2P', cursive;
+
+  --color-1: #CC9543;
+  --color-2: #808080;
+  --color-3: #7F7F83;
+  --color-4: #6ABFC3;
+  --color-5: #E8D1A1;
+}
