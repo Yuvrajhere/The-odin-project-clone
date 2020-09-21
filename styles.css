@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=VT323&display=swap');
 
 :root {
   --font-family-1: 'Open Sans', sans-serif;
-  --font-family-2: 'Press Start 2P', cursive;
+  --font-family-2: 'VT323', cursive;
 
   --color-1: #CC9543;
   --color-2: #808080;
@@ -10,3 +10,83 @@
   --color-4: #6ABFC3;
   --color-5: #E8D1A1;
 }
+
+* {
+  font-family: var(--font-family-1);
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+button {
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: var(--color-4);
+  padding: 1% 2%;
+  box-shadow: var(--color-2) 0px 0px 2px 1px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bolder;
+  color: var(--color-2);
+}
+
+a:hover {
+  color: black;
+}
+
+img {
+  height: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  color: var(--color-3);
+}
+
+.container {
+  padding: 1% 10%;
+}
+
+.flex-jcsb-aic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo img {
+  height: 4rem;
+  margin-right: 1vw;
+}
+
+.logo h2 {
+  font-family: var(--font-family-2);
+  color: var(--color-1);
+}
+
+.nav-links {
+  width: 40%;
+}
+
