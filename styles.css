@@ -21,13 +21,21 @@
 }
 
 button {
+  opacity: 0.9;
   border: none;
   color: white;
   font-weight: bold;
+  font-size: 1.1rem;
   background-color: var(--color-4);
-  padding: 1% 2%;
-  box-shadow: var(--color-2) 0px 0px 2px 1px;
+  padding: 1% 3%;
+  box-shadow: var(--color-2) 0px 0px 4px 1px;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: initial;
+  box-shadow: var(--color-2) 0px 0px 2px 1px;
 }
 
 li {
@@ -45,10 +53,6 @@ a:hover {
   color: black;
 }
 
-img {
-  height: 100%;
-}
-
 h1 {
   font-size: 2.5rem;
 }
@@ -57,6 +61,9 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  font-size: 1.6rem;
+}
 p {
   font-size: 1.2rem;
   color: var(--color-3);
@@ -90,3 +97,91 @@ p {
   width: 40%;
 }
 
+header {
+  background: linear-gradient(180deg, #ffffff 50% , var(--color-4));
+  padding-top: 4%;
+  height: 110vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-weight: 100;
+  color: var(--color-1);
+}
+
+header p {
+  width: 40%;
+}
+
+
+main {
+  margin: 4% auto;
+  align-items: center;
+}
+
+main h2 {
+  margin-bottom: 4%;
+  color: var(--color-1);
+}
+
+main p {
+  margin: 0 auto;
+  width: 50%;
+  line-height: 1.8;
+}
+
+main div {
+  margin-top: 10%;
+  padding: 0 8%;
+}
+
+main div article {
+  border-radius: 5px;
+  position: relative;
+  height: 26rem;
+  background-color: rgba(106, 191, 195, 0.7);
+  padding: 10% 4% 2% 4%;
+  width: 30%;
+  flex-direction: column;
+  transition: 0.9s;
+}
+
+main div article:hover {
+  box-shadow: var(--color-2) 2px 2px 8px 1px;
+}
+
+main div article img {
+  align-self: center;
+  position: absolute;
+  top: -17%;
+  height: 10rem;
+  align-self: baseline;
+}
+
+main div article .card-img-1 {
+  left: 30%;
+}
+
+main div article .card-img-2 {
+  left: 16%;
+}
+
+main div article .card-img-3 {
+  left: 20%;
+}
+
+main div article h3 {
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+main div article p {
+  color: #000000;
+  text-align: justify;
+  width: 100%;
+}
+
+section.skills {
+  background-color: var(--color-5);
+}
